@@ -15,7 +15,7 @@ table_input = dbutils.widgets.get("TABLE_INPUT")
 
 # COMMAND ----------
 
-base_path = "abfss://datalake@stdemdsai.dfs.core.windows.net/raw/airflow/G6/marketing"
+base_path = "abfss://datalake@xxxxxxxxx/raw/airflow/G6/marketing"
 
 source_path = f"{base_path}/winemag-data-130k-v2.json"
 

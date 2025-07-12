@@ -16,7 +16,7 @@ table_input = dbutils.widgets.get("TABLE_INPUT")
 
 # COMMAND ----------
 
-base_path = "abfss://datalake@stdemdsai.dfs.core.windows.net/raw/airflow/G6/logistic"
+base_path = "abfss://datalake@xxxxxxxxx/raw/airflow/G6/logistic"
 
 source_path = f"{base_path}/Wine_Inventory_Stock_20250709.csv"
 
